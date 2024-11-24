@@ -38,6 +38,7 @@ This project implements a distributed file system with support for replication a
 	- /master_node
 	- /server_node
 	- /mgfs_lib
+	- /clients
 
 2. Start the Master Server: Run the master server on a designated port.
 
