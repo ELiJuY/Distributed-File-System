@@ -1,22 +1,22 @@
-# Ignore all binary files generated from compiled C code
-*
-
-# Allow source code files to be tracked
-!*.c
-!*.h
-!README.md
-!.gitignore
-!Makefile
-!*.so
-
 # Ignore object files
 *.o
 
-# Ignore core dumps
-core
-*.core
+# Ignore compiled binaries
+master
+server
+client
+common
+
+# Ignore other temporary files
+*.out
+*.log
+*.tmp
 
 # Ignore directories often created during build
 /build/
 /bin/
 /obj/
+
+# Ignore core dumps
+core
+*.core

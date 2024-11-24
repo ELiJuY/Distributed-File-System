@@ -41,7 +41,7 @@ This project implements a distributed file system with support for replication a
 
 2. Start the Master Server: Run the master server on a designated port.
 
-./master <port>
+./master <master_port>
 
 3. Start Storage Servers: Each server needs the master server's IP and port for registration.
 
